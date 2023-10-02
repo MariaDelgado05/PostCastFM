@@ -5,29 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/output.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+    <title>PODCAST</title>
   </head>
   <body>
     <header>
-      <div class="hero bg-no-repeat bg-cover bg-left-top">
-        <div class="grid grid-rows-3 gap-24 ml-20 p-14">
-          <div class="h-20 w-60">
+      <div class="hero bg-no-repeat bg-cover bg-center md:bg-left-top">
+        <div
+          class="grid grid-rows-3 items-center gap-20 px-5 md:gap-16 md:px-14"
+        >
+          <div class="h-16 w-[16rem] md:h-20 md:w-60">
             <img src="img/logo.svg" alt="logo" />
           </div>
-          <div class="flex flex-col gap-y-4">
+          <div class="flex flex-col gap-y-3 md:gap-y-4">
             <div>
-              <h1 class="text-white text-left font-bold text-7xl leading-1">
+              <h1
+                class="text-white text-left font-bold text-5xl md:text-7xl leading-1"
+              >
                 Tu Plataforma
               </h1>
-              <h1 class="text-white text-left font-bold text-7xl leading-1">
+              <h1
+                class="text-white text-left font-bold text-5xl md:text-7xl leading-1"
+              >
                 para publicar
               </h1>
-              <h1 class="text-white text-left font-bold text-7xl leading-1">
+              <h1
+                class="text-white text-left font-bold text-5xl md:text-7xl leading-1"
+              >
                 tus podcast
               </h1>
             </div>
 
-            <a class="bg-teal-400 w-fit h-10 px-8 text-lg font-bold p-2">
+            <a
+              class="bg-teal-400 w-[250px] text-center text-lg font-bold md:w-fit px-8 p-2"
+            >
               Crear Cuenta
             </a>
           </div>
@@ -35,30 +45,32 @@
       </div>
     </header>
 
-    <section>
-      <div class="grid grid-cols-2 items-center gap-32 h-[35rem]">
-        <div>
+    <!-- <section>
+      <div class="flex flex-col md:grid grid-cols-2 items-center min-h-[35rem]">
+        <div class="col-span-1">
           <img
-            class="max-w-full w-fit pl-20 h-96"
+            class="max-w-full h-96 p-5 md:pl-20"
             src="img/imagen_podcast.svg"
             alt="imagen podcast"
           />
         </div>
-        <div class="flex flex-col gap-6 py-24">
+        <div
+          class="pb-10 pl-5 md:flex flex-col items-start gap-6 text-2xl w-fit"
+        >
           <h2
-            class="text-4xl font-bold bg-gradient-to-t from-teal-400 via-white to-transparent w-fit"
+            class="bg-gradient-to-t from-teal-400 via-white to-transparent w-fit col-span-2 text-4xl font-bold"
           >
             Crea tu Podcast
           </h2>
-          <p class="text-2xl font-normal pr-12">
+          <p class="font-normal pr-12">
             Nosotros lo distribuimos a las plataformas más populares como Google
             Podcast, Spotify, Apple Podcast y YouTube.
           </p>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section>
+    <!-- <section>
       <div
         class="grid grid-cols-2 items-center gap-28 p-5 bg-teal-400 h-[52rem]"
       >
@@ -120,7 +132,7 @@
         </div>
         <div class="grid grid-cols-6 mx-auto max-w-[900px] py-16">
           <div
-            class="flex flex-col items-center gap-y-5 bg-slate-50 col-span-2 px-5 py-10 z-30 hover:scale-110"
+            class="flex flex-col items-center gap-y-5 bg-slate-50 col-span-2 px-5 py-5 hover:scale-110"
           >
             <img
               class="w-24 h-24"
@@ -140,11 +152,11 @@
           </div>
 
           <div
-            class="flex flex-col items-center gap-y-5 col-span-2 bg-teal-400 rounded-lg px-5 py-10 z-[60] hover:scale-110"
+            class="flex flex-col items-center gap-y-5 col-span-2 bg-teal-400 rounded-lg px-5 py-10 z-50 hover:scale-110"
           >
             <img
               class="w-24 h-24"
-              src="./img/avion-apuntando-hacia-arriba.png"
+              src="./img/icono_negocio.svg"
               alt="Imagen inicio"
             />
             <h3 class="font-bold text-4xl">Negocio</h3>
@@ -162,7 +174,7 @@
           </div>
 
           <div
-            class="flex flex-col items-center gap-y-5 col-span-2 bg-slate-50 px-5 py-10 z-30 hover:scale-110"
+            class="flex flex-col items-center gap-y-5 col-span-2 bg-slate-50 px-5 py-5 hover:scale-110"
           >
             <img
               class="w-24 h-24"
@@ -185,20 +197,82 @@
         </div>
       </section>
     </main>
+
     <section>
-      <div>
-        <div>
+      <div
+        class="grid grid-cols-5 gap-10 items-center container mx-auto p-10 mb-20"
+      >
+        <figure class="col-span-2">
           <img src="img/app.jpg" alt="imagen app" />
+        </figure>
+        <div class="flex flex-col gap-10 col-span-3">
+          <h2
+            class="text-4xl text-gray-800 font-bold bg-gradient-to-t from-teal-400 via-transparent to-transparent w-fit"
+          >
+            Testimoniales
+          </h2>
+          <div class="flex">
+            <div
+              class="flex border-4 rounded-md border-teal-800 bg-teal-400 row-span-1 min-h-52 w-[30rem] p-5 gap-4"
+            >
+              <div>
+                <img
+                  class="h-fit w-[18rem]"
+                  src="./img/comilla.svg"
+                  alt="comilla"
+                />
+              </div>
+              <p class="text-2xl text-left">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                voluptatum pariatur ea tempora aliquid quisquam sequi labore
+                nemo debitis maiores, aperiam.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex justify-center">
+            <div
+              class="flex border-4 rounded-md border-teal-800 bg-teal-400 row-span-2 min-h-52 w-[30rem] p-5 gap-4"
+            >
+              <div>
+                <img class="h-fit w-[18rem]" src="./img/comilla.svg" alt="" />
+              </div>
+              <p class="text-2xl text-left">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                voluptatum pariatur ea tempora aliquid quisquam sequi labore
+                nemo debitis maiores, aperiam.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex justify-end">
+            <div
+              class="flex border-4 rounded-md border-teal-800 bg-teal-400 row-span-3 min-h-52 w-[30rem] p-5 gap-4"
+            >
+              <div>
+                <img
+                  class="h-fit w-[18rem]"
+                  src="./img/comilla.svg"
+                  alt="comilla"
+                />
+              </div>
+              <p class="text-2xl text-left">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                voluptatum pariatur ea tempora aliquid quisquam sequi labore
+                nemo debitis maiores, aperiam.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <footer>
-      <div class="bg-slate-700 grid grid-cols-4 justify-items-center w-fit">
+      <div class="bg-slate-700 grid grid-cols-4 justify-items-center p-4">
         <div>
-          <img class="p-10 w-fit" src="./img/logo.svg" alt="imagen logo" />
+          <img class="h-52 w-[18rem]" src="./img/logo.svg" alt="imagen logo" />
         </div>
-        <div class="mt-12 text-2xl text-white">
+        <div class="mt-10 text-2xl text-white">
           <h3 class="text-3xl text-teal-400 font-bold mb-6">Soluciones</h3>
           <nav class="flex flex-col">
             <a href="#">Soluciones</a>
@@ -206,15 +280,15 @@
             <a href="#">Distribucion</a>
           </nav>
         </div>
-        <div class="mt-12 text-2xl text-white">
+        <div class="mt-10 text-2xl text-white">
           <h3 class="text-3xl text-teal-400 font-bold mb-6">Soporte</h3>
           <nav class="flex flex-col text-1xl">
             <a href="#">Documentacion</a>
             <a href="#">Precios</a>
             <a href="#">API</a>
           </nav>
-        </div>
-        <div class="mt-12 text-2xl text-white">
+        </div> -->
+    <!-- <div class="mt-10 text-2xl text-white">
           <h3 class="text-3xl text-teal-400 font-bold mb-6">Podtcast FM</h3>
           <nav class="flex flex-col text-1xl">
             <a href="#">Nosotros</a>
@@ -230,6 +304,6 @@
           PODCAST FM - TODOS LOS DERECHOS RESERVADOS
         </p>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
