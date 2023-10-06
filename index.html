@@ -11,9 +11,9 @@
     <header>
       <div class="hero bg-no-repeat bg-cover bg-center md:bg-left-top">
         <div
-          class="grid grid-rows-3 items-center gap-20 px-5 md:gap-16 md:px-14"
+          class="grid grid-rows-3 items-center gap-20 px-5 py-5 md:gap-12 md:p-12"
         >
-          <div class="h-16 w-[16rem] md:h-20 md:w-60">
+          <div class="max-w-md min-w-fit max-h-80">
             <img src="img/logo.svg" alt="logo" />
           </div>
           <div class="flex flex-col gap-y-3 md:gap-y-4">
@@ -45,42 +45,42 @@
       </div>
     </header>
 
-    <!-- <section>
-      <div class="flex flex-col md:grid grid-cols-2 items-center min-h-[35rem]">
+    <section>
+      <div class="grid p-5 md:grid-cols-2 items-center md:gap-10 min-h-[35rem]">
         <div class="col-span-1">
           <img
-            class="max-w-full h-96 p-5 md:pl-20"
+            class="max-w-full md:pl-20"
             src="img/imagen_podcast.svg"
             alt="imagen podcast"
           />
         </div>
         <div
-          class="pb-10 pl-5 md:flex flex-col items-start gap-6 text-2xl w-fit"
+          class="md:flex flex-col items-start gap-6 text-2xl w-fit"
         >
           <h2
             class="bg-gradient-to-t from-teal-400 via-white to-transparent w-fit col-span-2 text-4xl font-bold"
           >
             Crea tu Podcast
           </h2>
-          <p class="font-normal pr-12">
+          <p class="font-normal md:pr-12">
             Nosotros lo distribuimos a las plataformas más populares como Google
             Podcast, Spotify, Apple Podcast y YouTube.
           </p>
         </div>
       </div>
-    </section> -->
+    </section>
 
-    <!-- <section>
+    <section>
       <div
-        class="grid grid-cols-2 items-center gap-28 p-5 bg-teal-400 h-[52rem]"
+        class="grid p-5 md:grid-cols-2 items-center md:gap-28 bg-teal-400 min-h-[52rem]"
       >
-        <div class="flex flex-col justify-items-center gap-6 pl-20">
+        <div class="flex flex-col justify-items-center gap-6 md:pl-20">
           <h2
             class="text-4xl text-gray-800 font-bold bg-gradient-to-t from-white via-transparent to-transparent mb-4 w-fit"
           >
             Llega a miles y gana dinero
           </h2>
-          <p class="text-2xl font-normal text-justify">
+          <p class="text-2xl font-normal">
             Los podcast se han convertido en un medio de entretenimiento que
             cada día gana más seguidores, con temas variados puedes crear tu
             propio podcast, ser escuchada(o) por miles de personas y convertir
@@ -89,7 +89,7 @@
         </div>
         <div class="transition-transform scale-110">
           <img
-            class="w-fit p-24 hover:rotate-12 duration-[0.3s]"
+            class="w-fit p-5 md:p-20 hover:rotate-12 duration-[0.3s]"
             src="./img/podcast_cover.png"
             alt="imagen podcast"
           />
@@ -98,7 +98,7 @@
     </section>
 
     <section>
-      <div class="p-20">
+      <div class="p-5 md:p-20">
         <div>
           <h2
             class="text-4xl text-gray-800 font-bold bg-gradient-to-t from-teal-400 via-transparent to-transparent mb-4 w-fit"
@@ -119,8 +119,8 @@
     </section>
 
     <main>
-      <section class="bg-slate-700 py-16">
-        <div class="container mx-auto">
+      <section class="bg-slate-700 px-10 md:max-h-[52rem]">
+        <div class="container mx-auto py-10">
           <h2
             class="text-4xl text-slate-50 font-bold bg-gradient-to-t from-teal-400 via-transparent to-transparent mb-4 w-fit"
           >
@@ -130,9 +130,9 @@
             Inicia gratis, crece tu plan cuando sea necesario
           </p>
         </div>
-        <div class="grid grid-cols-6 mx-auto max-w-[900px] py-16">
+        <div class="grid grid-rows-3 md:grid-cols-6 mx-auto max-w-[900px]">
           <div
-            class="flex flex-col items-center gap-y-5 bg-slate-50 col-span-2 px-5 py-5 hover:scale-110"
+            class="row-start-2 flex flex-col items-center gap-y-5 bg-slate-50 px-5 py-12 md:py-5 hover:scale-110 md:col-span-2 md:row-start-1"
           >
             <img
               class="w-24 h-24"
@@ -152,12 +152,12 @@
           </div>
 
           <div
-            class="flex flex-col items-center gap-y-5 col-span-2 bg-teal-400 rounded-lg px-5 py-10 z-50 hover:scale-110"
+            class="row-start-1 flex flex-col items-center gap-y-5 bg-teal-400 rounded-lg px-5 py-10 z-50 hover:scale-105 md:col-span-2 md:row-start-1"
           >
             <img
               class="w-24 h-24"
               src="./img/icono_negocio.svg"
-              alt="Imagen inicio"
+              alt="Imagen negocio"
             />
             <h3 class="font-bold text-4xl">Negocio</h3>
             <p class="font-bold text-xl">$6.99 MES</p>
@@ -174,7 +174,7 @@
           </div>
 
           <div
-            class="flex flex-col items-center gap-y-5 col-span-2 bg-slate-50 px-5 py-5 hover:scale-110"
+            class="row-start-3 flex flex-col items-center gap-y-5 bg-slate-50 px-5 py-12 md:py-5 hover:scale-105 md:col-span-2 md:row-start-1"
           >
             <img
               class="w-24 h-24"
@@ -267,7 +267,7 @@
       </div>
     </section>
 
-    <footer>
+    <!--<footer>
       <div class="bg-slate-700 grid grid-cols-4 justify-items-center p-4">
         <div>
           <img class="h-52 w-[18rem]" src="./img/logo.svg" alt="imagen logo" />
