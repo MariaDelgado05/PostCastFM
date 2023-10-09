@@ -2,13 +2,9 @@
     background-image: linear-gradient(rgba(62, 123, 203, 0.5),rgba(37, 63, 99, 0.5)),url(../img/header.jpg);
     width: 100%;
 } 
-@media (min-width: 768px) { 
-    .hero{
-        background-image: linear-gradient(rgba(62, 123, 203, 0.5),rgba(37, 63, 99, 0.5)),url(../img/header.jpg);
-        height: 100vh;
+@media (min-width: 768px) {
+    .body{
         width: 1550px;
-        background-position: center;
-        background-size: cover;
     } 
 }
 
